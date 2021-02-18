@@ -1,3 +1,5 @@
+https://github.com/makersacademy/course/blob/master/pills/ruby_web_project_setup_list.md
+
 # Bookmark-manager
 # User story 1
 #As a user
