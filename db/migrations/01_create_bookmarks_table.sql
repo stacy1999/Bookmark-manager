@@ -4,6 +4,9 @@
 -- \dt = to list all the tables
 -- \c = to move into a database
 
+-- Create a database
+CREATE DATABASE "bookmark_manager_test";
+-- Create a table 
 CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 
 -- Shows all records in the table
@@ -21,3 +24,5 @@ DELETE FROM bookmarks WHERE url = 'http://www.twitter.com';
 
 -- To update a record 
 UPDATE bookmarks SET url = 'http://www.destroyallsoftware.com' WHERE url = 'http://www.askjeeves.com';
+
+
